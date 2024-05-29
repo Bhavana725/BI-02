@@ -22,15 +22,15 @@ Categorical variables are encoded using Label Encoding. Numerical features are s
 The Synthetic Minority Over-sampling Technique (SMOTE) is used to handle class imbalance in the training data.
 
 5. Model Building and Training
-Four different machine learning models are trained:
+         Four different machine learning models are trained:
 
-Random Forest Classifier
+         Random Forest Classifier
 
-Logistic Regression
+         Logistic Regression
 
-Support Vector Machine (SVM)
+         Support Vector Machine (SVM)
 
-Gradient Boosting Classifier
+         Gradient Boosting Classifier
 
 6. Hyperparameter Tuning
 Grid Search is used to find the best hyperparameters for the Random Forest model.
