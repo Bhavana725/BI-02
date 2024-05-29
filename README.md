@@ -22,15 +22,15 @@ Categorical variables are encoded using Label Encoding. Numerical features are s
 The Synthetic Minority Over-sampling Technique (SMOTE) is used to handle class imbalance in the training data.
 
 5. Model Building and Training
-         Four different machine learning models are trained:
+        a. Four different machine learning models are trained:
 
-         Random Forest Classifier
+        b. Random Forest Classifier
 
-         Logistic Regression
+        c. Logistic Regression
 
-         Support Vector Machine (SVM)
+        d. Support Vector Machine (SVM)
 
-         Gradient Boosting Classifier
+        e. Gradient Boosting Classifier
 
 6. Hyperparameter Tuning
 Grid Search is used to find the best hyperparameters for the Random Forest model.
@@ -42,26 +42,26 @@ Cross-validation is performed to evaluate the models and ensure they perform wel
 8. Evaluation
 The models are evaluated using accuracy score, confusion matrix, and classification report. Confusion matrices for each model are plotted for better visualization.
 
-**How to Run the Code**
-Clone the repository:
-
-bash
-Copy code
-git clone https://github.com/your-username/titanic-survival-prediction.git
-cd titanic-survival-prediction
-Install the required packages:
-
-bash
-Copy code
-pip install -r requirements.txt
-Run the Jupyter Notebook:
-
-bash
-Copy code
-jupyter notebook titanic_survival_prediction.ipynb
 
 **Results**
 The accuracy of each model along with their confusion matrices and classification reports are provided. The final combined Voting Classifier model demonstrates improved performance by leveraging the strengths of individual models.
+
+**Accuracies:**
+     Random Forest: 81.56%
+     
+     SVM: 81.56%
+     
+     Logistic Regression: 81.01%
+     
+     Gradient Boosting: 81.01%
+     
+     Tuning: 81.00%
+     
+     Smote: 79.33%
+     
+     Cross Validation: 77.70%
+     
+
 
 **Conclusion**
 
