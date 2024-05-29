@@ -1,7 +1,9 @@
 **Titanic Survival Prediction**
+
 This repository contains a comprehensive guide to building and improving predictive models to determine the likelihood of survival for passengers on the Titanic. The project employs various data science techniques and machine learning algorithms, including Random Forest, Support Vector Machine (SVM), Logistic Regression, and Gradient Boosting. Additionally, it explores methods to enhance model performance through  hyperparameter tuning, handling class imbalance, and cross validation.
 
 **Project Overview**
+
 The sinking of the Titanic is one of the most infamous shipwrecks in history. One of the main reasons it resulted in such loss of life was that there were not enough lifeboats for the passengers and crew. While there was some element of luck involved in surviving the sinking, it seems some groups of people were more likely to survive than others.
 
 This project aims to predict whether a given passenger on the Titanic would have survived or not based on various features such as age, gender, passenger class, etc.
@@ -53,8 +55,10 @@ Run the Jupyter Notebook:
 bash
 Copy code
 jupyter notebook titanic_survival_prediction.ipynb
+
 **Results**
 The accuracy of each model along with their confusion matrices and classification reports are provided. The final combined Voting Classifier model demonstrates improved performance by leveraging the strengths of individual models.
 
-Conclusion
+**Conclusion**
+
 This project showcases the application of various data science techniques and machine learning algorithms to solve a binary classification problem. Through feature engineering, hyperparameter tuning, the performance of the models is significantly enhanced.
