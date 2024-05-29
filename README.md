@@ -66,4 +66,4 @@ The accuracy of each model along with their confusion matrices and classificatio
 
 **Conclusion**
 
-This project showcases the application of various data science techniques and machine learning algorithms to solve a binary classification problem. Through feature engineering, hyperparameter tuning, the performance of the models is significantly enhanced.
+This project showcases the application of various data science techniques and machine learning algorithms to solve a binary classification problem. Through feature engineering, hyperparameter tuning, the performance of the models was not effected.
