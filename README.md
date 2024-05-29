@@ -47,6 +47,7 @@ The models are evaluated using accuracy score, confusion matrix, and classificat
 The accuracy of each model along with their confusion matrices and classification reports are provided. The final combined Voting Classifier model demonstrates improved performance by leveraging the strengths of individual models.
 
 **Accuracies:**
+
      Random Forest: 81.56%
      
      SVM: 81.56%
