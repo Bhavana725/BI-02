@@ -25,9 +25,13 @@ The Synthetic Minority Over-sampling Technique (SMOTE) is used to handle class i
 Four different machine learning models are trained:
 
 Random Forest Classifier
+
 Logistic Regression
+
 Support Vector Machine (SVM)
+
 Gradient Boosting Classifier
+
 6. Hyperparameter Tuning
 Grid Search is used to find the best hyperparameters for the Random Forest model.
 
